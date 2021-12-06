@@ -1,0 +1,19 @@
+/* remeber to set an overall body css */
+
+/* BEST PRACTICE. WHAT ELSE SHOULD BE IN BODY? */
+
+/*  font-family: ;
+    text-align: ;
+    font-size: ; */
+
+/* Title */
+
+.mainPhoto1{
+  background-image: url(images/mainPhoto1.jpg);
+  height: 80em; /* without height, image does not appear*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
