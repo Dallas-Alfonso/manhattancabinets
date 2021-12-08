@@ -6,7 +6,12 @@
     text-align: ;
     font-size: ; */
 
+
+
 /* Title */
+
+
+/* 1st section w/ main  photo */
 
 .mainPhoto1{
   background-image: url(images/mainPhoto1.jpg);
@@ -16,6 +21,10 @@
   background-size: cover;
   
 }
+
+/* 1st section w/ main  photo */
+
+/* Section with second main photo */
 
 .moreAboutUsRow{
   display: grid;
@@ -27,3 +36,20 @@
   width:100%;
   object-fit: cover;
 }
+
+/* Section with second main photo */
+
+/* Section for Premiere Choice features */
+
+.premierChoiceFeaturesRow{
+  /* This choice focuses on flow */
+
+  /* display:flex;
+  justify-content: space-between; */
+
+  /* This choice focuses on placement */
+  display:grid;    
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+ 
+} 
