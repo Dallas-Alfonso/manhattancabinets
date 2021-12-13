@@ -9,8 +9,6 @@
 
 
 /* Title */
-
-
 /* 1st section w/ main  photo */
 
 .mainPhoto1{
@@ -23,7 +21,6 @@
 }
 
 /* 1st section w/ main  photo */
-
 /* Section with second main photo */
 
 .moreAboutUsRow{
@@ -38,18 +35,34 @@
 }
 
 /* Section with second main photo */
-
 /* Section for Premiere Choice features */
 
 .premierChoiceFeaturesRow{
   /* This choice focuses on flow */
 
-  /* display:flex;
-  justify-content: space-between; */
+  display:flex;
+  justify-content: space-between;
 
   /* This choice focuses on placement */
-  display:grid;    
+  /* display:grid;    
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 2rem;
+  grid-gap: 2rem; */
  
-} 
+}
+
+/* Section for Premiere Choice features */
+/* Services Sections */
+
+.servicesRow{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: .5rem;
+}
+
+
+#services .servicesRow .servicesList img{
+  width: 100%;
+}
+
+/* Services Sections */
+

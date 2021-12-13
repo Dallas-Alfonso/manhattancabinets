@@ -1,104 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset = "UTF-8">
+  <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
   
   <!-- Bootstrap CSS V5.1 -->
   <link 
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-  rel="stylesheet" 
-  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-  crossorigin="anonymous">
+  href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+  rel = "stylesheet" 
+  integrity = "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+  crossorigin = "anonymous">
   <script 
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
-  crossorigin="anonymous">
+  src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+  integrity = "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+  crossorigin = "anonymous">
   </script>
   <!-- END Bootstrap CSS V5.1 -->
   <title>Document</title>
   <!-- Link to CSS StyleSheet -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
 
   <!-- 1st section w/ main  photo -->
-  <section class="mainPhoto1" id="title">
+  <section class = "mainPhoto1" id = "title">
 
     <!-- Think about implementing a MAIN CONTAINER to control width size of this section..
     This will be reoccuring in each section where we need to contorl width.
     This is better than implementing an overall/site-wide width control -->
   
   <!-- NavBar --> <!--PUT ABOVE MAIN SECTION TO ENSURE IT SCROLLS DOWN WITH PAGE?-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+    <div class = "container-fluid">
+      <a class = "navbar-brand" href = "#">Navbar</a>
       <!-- Makes a Hamburger Button when Screen becomes smaller -->
       <button 
-      class="navbar-toggler" 
-      type="button" 
-      data-bs-toggle="collapse" 
-      data-bs-target="#navbarSupportedContent" 
-      aria-controls="navbarSupportedContent" 
-      aria-expanded="false" 
-      aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      class = "navbar-toggler" 
+      type = "button" 
+      data-bs-toggle = "collapse" 
+      data-bs-target = "#navbarSupportedContent" 
+      aria-controls = "navbarSupportedContent" 
+      aria-expanded = "false" 
+      aria-label = "Toggle navigation">
+        <span class = "navbar-toggler-icon"></span>
       </button>
       <!-- Makes a Hamburger Button when Screen becomes smaller -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- Things inside this <div> will be whats inside the Hamburger -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <div class = "collapse navbar-collapse" id = "navbarSupportedContent"> <!-- Things inside this <div> will be whats inside the Hamburger -->
+        <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
+          <li class = "nav-item">
+            <a class = "nav-link active" aria-current = "page" href = "#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#">Link</a>
           </li>
           <!-- DropDown -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class = "nav-item dropdown">
+            <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdown" role = "button" data-bs-toggle = "dropdown" aria-expanded = "false">
               Dropdown
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul class = "dropdown-menu" aria-labelledby = "navbarDropdown">
+              <li><a class = "dropdown-item" href = "#">Action</a></li>
+              <li><hr class = "dropdown-divider"></li>
+              <li><a class = "dropdown-item" href = "#">Something else here</a></li>
             </ul>
           </li>
           <!-- DropDown -->
 
         </ul>
         <!-- Search Option -->
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        <form class = "d-flex">
+          <input class = "form-control me-2" type = "search" placeholder = "Search" aria-label = "Search">
+          <button class = "btn btn-outline-success" type = "submit">Search</button>
         </form>
         <!-- Search Option -->
       </div>
     </div>
   </nav>
 
-  <div class="mainSummaryText">Premier Kitchen, Bath, & Cabinet Remodelling</div>
-  <button type="button" class="btn btn-outline-primary">Get a Free Estimate</button>
+  <div class = "mainSummaryText">Premier Kitchen, Bath, & Cabinet Remodelling</div>
+  <button type = "button" class = "btn btn-outline-primary">Get a Free Estimate</button>
   <!-- NavBar -->
   </section>
   <!-- 1st section w/ main  photo -->
 
 
   <!-- Section with second main photo -->
-  <section id="moreAboutUs">
+  <section id = "moreAboutUs">
     
-    <div class="moreAboutUsRow"> <!-- container to set up grid/row/halfsplit -->
+    <div class = "moreAboutUsRow"> <!-- container to set up grid/row/halfsplit -->
 
-      <div class="moreAboutUs-img-cont"> <!-- Image Half -->
-        <img src="images/kitchenMain2.jpg" alt="Dark Kitchen Design">
+      <div class = "moreAboutUs-img-cont"> <!-- Image Half -->
+        <img src = "images/kitchenMain2.jpg" alt = "Dark Kitchen Design">
       </div>
 
-      <div class="moreAboutUs-content"> <!-- content half -->
+      <div class = "moreAboutUs-content"> <!-- content half -->
         <h3>bleh</h3>
         <p>lorem ipsumfkaejfnlajenf</p>
-        <button type="button" class="btn btn-outline-primary">More About Us</button>
+        <button type = "button" class = "btn btn-outline-primary">More About Us</button>
       </div>
     </div>
     
@@ -107,28 +106,28 @@
 
 
   <!-- Section for Premiere Choice features -->
-  <section id="premierChoice">
+  <section id = "premierChoice">
 
     <h2>Premier Choice</h2>
 
-    <div class="premierChoiceFeaturesRow">
+    <div class = "premierChoiceFeaturesRow">
 
-      <div class="premierChoiceFeature">
+      <div class = "premierChoiceFeature">
         <h3>
           Over 20 Years Experience
         </h3>
       </div>
-      <div class="premierChoiceFeature">
+      <div class = "premierChoiceFeature">
         <h3>
           Award Winning Service
         </h3>
       </div>
-      <div class="premierChoiceFeature">
+      <div class = "premierChoiceFeature">
         <h3>
           5 Star Reviews
         </h3>
       </div>
-      <div class="premierChoiceFeature">
+      <div class = "premierChoiceFeature">
         <h3>
           Hundreds of Satisfied Customers
         </h3>
@@ -136,6 +135,30 @@
     </div>
   </section>
   <!-- Section for Premiere Choice -->
+
+  <!-- Services Section -->
+  <section id = "services">
+    <!-- CONTAINER DIV HERE? -->
+    <div class = "servicesRow">
+
+      <div class = "servicesList"> <!-- consider putting image within div. so we can have text on top of div -->
+        <img src="images/Interior.jpg" >
+
+      </div>
+
+      <div class = "servicesList">
+        <img src="images/Interior.jpg" >
+
+      </div>
+
+      <div class = "servicesList">
+        <img src="images/Interior.jpg" >
+
+      </div>
+    </div>
+    
+  </section>
+  <!-- Services Section -->
   
 </body>
 </html>
