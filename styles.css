@@ -59,6 +59,51 @@
   grid-gap: .5rem;
 }
 
+.servicesRow1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: .5rem;
+  /* background-image: url(/images/Interior.jpg); */
+  
+
+}
+
+.servicesList{
+  /* these are used to aid in getting text inside! */
+  position: relative;
+  text-align: center;
+  color: white;
+
+  /* background-image: url(/images/Interior.jpg);
+  height: 80em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.servicesList1{
+
+/* background-image: url("/landscape1.jpg"); */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+  
+  height:42em; 
+
+    background-image:  url(images/Interior.jpg); 
+
+}
+/* This is used to get text inside! */
+.textExample{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 
 #services .servicesRow .servicesList img{
   width: 100%;
