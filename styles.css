@@ -8,28 +8,26 @@
 
 
 
-/* Title */
 /* 1st section w/ main  photo */
 
-.mainPhoto1{
+.mainPhoto1 {
   background-image: url(images/mainPhoto1.jpg);
   height: 80em; /* without height, image does not appear*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 /* 1st section w/ main  photo */
 /* Section with second main photo */
 
-.moreAboutUsRow{
+.moreAboutUsRow {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
 }
 
-.moreAboutUs-img-cont img{
+.moreAboutUs-img-cont img {
   width:100%;
   object-fit: cover;
 }
@@ -37,7 +35,7 @@
 /* Section with second main photo */
 /* Section for Premiere Choice features */
 
-.premierChoiceFeaturesRow{
+.premierChoiceFeaturesRow {
   /* This choice focuses on flow */
 
   display:flex;
@@ -53,61 +51,25 @@
 /* Section for Premiere Choice features */
 /* Services Sections */
 
-.servicesRow{
+.servicesRow {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: .5rem;
 }
 
-.servicesRow1{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: .5rem;
-  /* background-image: url(/images/Interior.jpg); */
-  
-
-}
-
-.servicesList{
-  /* these are used to aid in getting text inside! */
-  position: relative;
-  text-align: center;
-  color: white;
-
-  /* background-image: url(/images/Interior.jpg);
-  height: 80em;
+.servicesList {
+  background-image:  url(images/Interior.jpg); 
+  background-size: cover;
+  height: 35em;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
-
-.servicesList1{
-
-/* background-image: url("/landscape1.jpg"); */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
-
-  
-  height:42em; 
-
-    background-image:  url(images/Interior.jpg); 
-
-}
-/* This is used to get text inside! */
-.textExample{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-#services .servicesRow .servicesList img{
-  width: 100%;
 }
 
 /* Services Sections */
+/* Reviews Section */
+
+.reviewsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5rem;
+}
 
