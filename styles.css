@@ -73,3 +73,18 @@
   grid-gap: 5rem;
 }
 
+/* Reviews Section */
+/* Contact Section */
+.contactRows {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+}
+
+/* Contact Section */
+
+.formContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+}
