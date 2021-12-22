@@ -23,15 +23,10 @@
 </head>
 <body>
 
-  <!-- 1st section w/ main  photo -->
-  <section class = "mainPhoto1" id = "title">
-
-    <!-- Think about implementing a MAIN CONTAINER to control width size of this section..
-    This will be reoccuring in each section where we need to contorl width.
-    This is better than implementing an overall/site-wide width control -->
   
-  <!-- NavBar --> <!--PUT ABOVE MAIN SECTION TO ENSURE IT SCROLLS DOWN WITH PAGE?-->
-  <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+  <section id = "mainContainerr">
+    <!-- NavBar --> 
+  <nav class = "navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class = "container-fluid">
       <a class = "navbar-brand" href = "#">Navbar</a>
       <!-- Makes a Hamburger Button when Screen becomes smaller -->
@@ -47,15 +42,29 @@
       </button>
       <!-- Makes a Hamburger Button when Screen becomes smaller -->
       <div class = "collapse navbar-collapse" id = "navbarSupportedContent"> <!-- Things inside this <div> will be whats inside the Hamburger -->
-        <ul class = "navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class = "navbar-nav ms-auto mb-2 mb-lg-0">
+
           <li class = "nav-item">
-            <a class = "nav-link active" aria-current = "page" href = "#">Home</a>
+            <a class = "nav-link active" aria-current = "page" href = "#">Home</a> 
           </li>
+
           <li class = "nav-item">
-            <a class = "nav-link" href = "#">Link</a>
+            <a class = "nav-link" href = "#">About</a>
+          </li>
+
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#">Services</a>
+          </li>
+
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#">Contact</a>
+          </li>
+
+          <li class = "nav-item">
+            <a class = "nav-link" href = "#">347-118-2938</a>
           </li>
           <!-- DropDown -->
-          <li class = "nav-item dropdown">
+          <!-- <li class = "nav-item dropdown">
             <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdown" role = "button" data-bs-toggle = "dropdown" aria-expanded = "false">
               Dropdown
             </a>
@@ -64,19 +73,28 @@
               <li><hr class = "dropdown-divider"></li>
               <li><a class = "dropdown-item" href = "#">Something else here</a></li>
             </ul>
-          </li>
+          </li> -->
           <!-- DropDown -->
 
         </ul>
         <!-- Search Option -->
-        <form class = "d-flex">
+        <!-- <form class = "d-flex">
           <input class = "form-control me-2" type = "search" placeholder = "Search" aria-label = "Search">
           <button class = "btn btn-outline-success" type = "submit">Search</button>
-        </form>
+        </form> -->
         <!-- Search Option -->
       </div>
     </div>
   </nav>
+
+  <!-- 1st section w/ main  photo -->
+  <section class = "mainPhoto1" id = "title">
+
+    <!-- Think about implementing a MAIN CONTAINER to control width size of this section..
+    This will be reoccuring in each section where we need to contorl width.
+    This is better than implementing an overall/site-wide width control -->
+  
+  
 
   <div class = "mainSummaryText">Premier Kitchen, Bath, & Cabinet Remodelling</div>
   <button type = "button" class = "btn btn-outline-primary">Get a Free Estimate</button>
@@ -232,6 +250,18 @@
 
           </div>  
 
+          <div class = "formContainer"> <!-- FORM CONTAINER? -->
+            <div> <!-- FORM message area -->
+              <textarea cols="30" rows = "10"></textarea>
+            </div>
+
+          </div>  
+
+          <div class = "formContainer"> <!-- FORM CONTAINER? -->
+            <button type = "button" class = "btn btn-outline-primary">Send</button>
+
+          </div>  
+
         </form>
       </div>
     </div>
@@ -239,6 +269,6 @@
 
   <!-- Contact Me -->
 
-
+</section>
 </body>
 </html>
