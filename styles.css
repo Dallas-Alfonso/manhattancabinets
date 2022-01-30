@@ -88,3 +88,13 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
 }
+
+
+/* About Me Section */
+.mainPhotoAboutMe {
+  background-image: url(images/mainPhoto1.jpg);
+  background-size: cover;
+  height: 20em;
+  background-position: center;
+  
+}
