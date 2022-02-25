@@ -98,3 +98,36 @@
   background-position: center;
   
 }
+
+
+
+/* MIX photo section in ABOUT ME PAGE */
+
+.fAndEMixTopRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+}
+
+.featurePic {
+  background-image: url(images/Interior.jpg);
+  background-size: cover;
+  height: 35em;
+  background-position: center;
+}
+
+.featuredColoredPic {
+  background-image: url(images/fAndEMix.jpg);
+  background-size: cover;
+  height: 35em;
+  background-position: center;
+}
+
+
+
+
+.fAndEMixBottomRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+}
