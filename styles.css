@@ -139,3 +139,14 @@
 #speacialFeaturesKitchen{
   background-color: rgb(78, 74, 74);
 }
+
+
+/* specialFeatures ALL SERVICES page */
+.fAndEMixTopRowAllServices{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.fAndEMixBottomRowAllServices{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
