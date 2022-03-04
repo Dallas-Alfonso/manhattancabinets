@@ -131,3 +131,11 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0.5rem;
 }
+
+
+
+
+/* specialFeatures KITCHEN page */
+#speacialFeaturesKitchen{
+  background-color: rgb(78, 74, 74);
+}
