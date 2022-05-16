@@ -1,3 +1,10 @@
+/* this makes sure our LOGO DOES NOT squish the SELECTIONS on the right hand side */
+.navbar-brand {
+  width:50%;
+  
+}
+
+
 /* remeber to set an overall body css */
 
 /* BEST PRACTICE. WHAT ELSE SHOULD BE IN BODY? */
