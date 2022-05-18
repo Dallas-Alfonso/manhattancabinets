@@ -81,7 +81,22 @@
 }
 
 /* Reviews Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact Section */
+/* SPLIT BETWEEN LEFT PORTION AND RIGHT PORTION (of SCREEN) */
 .contactRows {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -90,16 +105,70 @@
 
 /* Contact Section */
 
-.formContainer {
+/*NOTE THAT THIS WAY TO MAKE 'GRID' is MORE helpul when you have to make MORE than two columns*/
+/* 
+.formContainer {        
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
+} 
+*/
+/* SEE ABOVE */         /*JUST TWO COLUMNS*/
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin: 0 0 20px; */
+}
+
+.containerForMarginControl{
+  margin: 80px 25% 80px 15%;
 }
 
 
-/* .example {
+.formField{             /* To set overall space available for ELEMENTS inside.. 'subject' and 'message' */
+  width:100%;
+}
+.formField > input {    /* To FILL space SET by 'formField'  .... 'subject' */
   width: 100%;
-} */
+}
+.formField > textarea { /* To FILL space SET by 'formField'  .... 'message' */
+  width: 100%;
+}
+
+
+#contact > div.contactRows > div.rightContent > div > form > div > div > label {
+  float: right;         /* To POSITION Lables of Form to RIGHT (all the way to the right)  */
+}
+
+
+
+/* BE CAREFUL HERE! if DIV has a CLASS......REPLACE 'div' with CLASS NAME */
+/* #contact > div.contactRows > div.rightContent > div > form > div >  */
+div > input { /*[type=text]*/
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+/* #contact > div.contactRows > div.rightContent > div > form > div >  */
+div > textarea { 
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* About Me Section */

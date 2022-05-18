@@ -129,50 +129,53 @@
 
 
       <div class = "rightContent">
-        <!-- Container here? -->
+        <div class = "containerForMarginControl"> <!-- CONTAINER w MARGIN..... USED GLOBALLY? -->
+        
         <form>
 
           <div class = "formContainer"> <!-- FORM CONTAINER? -->
 
-            <div> <!-- First Name part -->
-              <label > Name </label> <br> <!-- for = 'fname' -->
-              <input type = "text" > <!-- id = 'fname' -->
+            <div> <!-- Name part  Div Important to Hold LABEL and INPUT   WE CAN ADJUST WIDTH HERE!!!-->
+              
+              <input type = "text" > <br> <!-- id = 'fname' -->
+              <label > Name </label> <!-- for = 'fname' -->
             </div> 
 
-            <div> <!-- Last Name part -->
-              <label > Email </label> <br> <!-- for = 'fname' -->
-              <input type = "text">
+            <div> <!-- ADD CLASS HERE Manipulate WIDTH -->
+              <input type = "text"> <br> <!-- for = 'fname' -->
+              <label > Email </label>
             </div> 
 
           </div>   
 
           <div class = "formContainer"> <!-- FORM CONTAINER? -->
 
-            <div> <!-- First Name part -->
-              <label > Phone </label> <br> <!-- for = 'fname' -->
-              <input type = "text">
+            <div> <!-- ADD CLASS HERE Manipulate WIDTH -->
+              <input type = "text"> <br> <!-- for = 'fname' -->   
+              <label > Phone </label>
             </div> 
 
-            <div> <!-- Last Name part -->
-              <label > Adress </label> <br> <!-- for = 'fname' -->
-              <input type = "text">
+            <div> <!-- ADD CLASS HERE Manipulate WIDTH -->
+              <input type = "text"> <br> <!-- for = 'fname' -->
+              <label > Adress </label>
+            </div> 
+
+          </div>  
+
+          <div class = "formContainer"> <!-- FORM CONTAINER -->
+
+            <div class = "formField"> <!-- class formField is to help set WIDTH -->
+              <input type = "text"> <br><!-- WIDTH set to 100% to help FILL OUT space of 'formField' -->
+              <label > Subject </label>  
+              
             </div> 
 
           </div>  
 
           <div class = "formContainer"> <!-- FORM CONTAINER? -->
-
-            <div class> <!-- First Name part -->
-              <label > Subject </label> <br> <!-- for = 'fname' -->
-              <input type = "text">
-            </div> 
-
-          </div>  
-
-          <div class = "formContainer"> <!-- FORM CONTAINER? -->
-            <div class> <!-- FORM message area -->
-              <label > Message </label> <br> <!-- for = 'fname' -->
-              <textarea class = 'example' cols="30" rows = "10"></textarea>
+            <div class = "formField"> <!-- FORM message area -->
+              <textarea class = 'example' cols="30" rows = "10"></textarea> <br> <!-- WIDTH set to 100% to help FILL OUT space of 'formField' -->
+              <label > Message </label> 
             </div>
 
           </div>  
@@ -183,6 +186,7 @@
           </div>  
 
         </form>
+      </div>
       </div>
     </div>
     <div class = "contactImage">
