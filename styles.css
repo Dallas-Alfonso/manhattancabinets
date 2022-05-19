@@ -103,7 +103,17 @@
   grid-gap: 5rem;
 }
 
+
 /* Contact Section */
+
+
+.containerForMarginControLeft{
+  margin: 80px 25% 80px 15%;
+}
+
+
+
+
 
 /*NOTE THAT THIS WAY TO MAKE 'GRID' is MORE helpul when you have to make MORE than two columns*/
 /* 
@@ -159,6 +169,30 @@ div > textarea {
   border-bottom: 1px solid black;
 }
 
+
+/* BUTTON FOR MESSAGE */
+form > div:nth-child(5) > button { /* #contact > div.contactRows > div.rightContent > div > */
+  color: white;
+  background-color: #014085;
+  width: 100%;
+}
+
+
+/* CONTACT */
+
+.contactImage {
+  background-image: url(images/Interior.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 30em;
+  margin: 0 0 7em 0;
+}
+
+
+
+
+    
+    
 
 
 
@@ -234,11 +268,3 @@ div > textarea {
 
 
 
-/* CONTACT */
-
-.contactImage {
-  background-image: url(images/Interior.jpg);
-  background-size: cover;
-  height: 35em;
-  background-position: center;
-}
