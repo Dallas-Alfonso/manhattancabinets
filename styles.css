@@ -142,9 +142,11 @@
 .formField > input {    /* To FILL space SET by 'formField'  .... 'subject' */
   width: 100%;
 }
-.formField > textarea { /* To FILL space SET by 'formField'  .... 'message' */
+.formField > textarea { /* To FILL space SET by 'formField'  .... 'message' */   
   width: 100%;
 }
+
+
 
 
 #contact > div.contactRows > div.rightContent > div > form > div > div > label {
