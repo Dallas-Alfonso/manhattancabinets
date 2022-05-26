@@ -97,6 +97,16 @@
 
 /* Contact Section */
 /* SPLIT BETWEEN LEFT PORTION AND RIGHT PORTION (of SCREEN) */
+/* #contact{
+  background-color: #1e1e1e;
+  color: white;
+} */
+
+#contactMain{
+  background-color: #1e1e1e;
+  color: white;
+}
+
 .contactRows {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -148,8 +158,8 @@
 
 
 
-
-#contact > div.contactRows > div.rightContent > div > form > div > div > label {
+/* #contact > div.contactRows > div.rightContent > div > form > div > div > label */
+div > label {  /* GLOBAL */
   float: right;         /* To POSITION Lables of Form to RIGHT (all the way to the right)  */
 }
 
@@ -157,28 +167,56 @@
 
 /* BE CAREFUL HERE! if DIV has a CLASS......REPLACE 'div' with CLASS NAME */
 /* #contact > div.contactRows > div.rightContent > div > form > div >  */
-div > input { /*[type=text]*/
+
+/* #contact > div.contactRows > div.rightContent > div > form > div:nth-child(2) > div:nth-child(1) > input[type=text] */
+
+#contactMain > div.contactRows > div.rightContent > div > form > div > div > input {
+  /* border-top: none;
+  border-left: none;
+  border-right: none; */
+  border-bottom: 1px solid white;
+  background-color: #1e1e1e;
+}
+
+#contactMain > div > div.rightContent > div > form > div:nth-child(4) > div > textarea {
+  /* border-top: none;
+  border-left: none;
+  border-right: none; */
+  border-bottom: 1px solid white;
+  background-color: #1e1e1e;
+}
+
+div > input { /*[type=text]*/ /*GLOBAL*/
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid black;
+  /* background-color: #1e1e1e; */
 }
 /* #contact > div.contactRows > div.rightContent > div > form > div >  */
-div > textarea { 
+div > textarea {              /*GLOBAL*/
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid black;
+  /* background-color: #1e1e1e; */
 }
 
 
 /* BUTTON FOR MESSAGE */
-form > div:nth-child(5) > button { /* #contact > div.contactRows > div.rightContent > div > */
-  color: white;
-  background-color: #014085;
+form > div > button { /* #contact > div.contactRows > div.rightContent > div > */
+  color: black;
+  background-color: white;
   width: 100%;
+  border-color:white;
 }
 
+#contactMain > div > div.rightContent > div > form > div:nth-child(5) > button {
+  color: black;
+  background-color: white;
+  width: 100%;
+  border-color:white;
+}
 
 /* CONTACT */
 
