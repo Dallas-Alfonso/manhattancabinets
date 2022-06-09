@@ -1,8 +1,9 @@
 /* this makes sure our LOGO DOES NOT squish the SELECTIONS on the right hand side */
-.navbar-brand {
+/* .navbar-brand {
   width:50%;
   
-}
+} */
+/* Found a technique where instead of adjusting width of navbar-brand, we ADD a DIV and give THAT a width of 50% */
 
 
 /* remeber to set an overall body css */

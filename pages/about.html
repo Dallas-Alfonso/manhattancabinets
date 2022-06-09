@@ -26,7 +26,11 @@
   <!-- NOTE THERE is a MAINN CONTAINER here.. -->
   <nav class = "navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class = "container-fluid">
-      <a class = "navbar-brand" href = "#">Navbar</a>
+      <div style = "width:50%"><!-- GLOBAL TO APPLY TO ALL PAGES WITH LOGO --><!-- Technique to make sure tag <a> isnt clickable PAST LOGO image -->
+      <a class = "navbar-brand" href = "../index.html"> <!-- take out href to solve image taking up too much space? -->
+        <img src= "../images/ManhattanCabinetsLogo.png" width="20%" alt="">
+      </a> 
+      </div>
       <!-- Makes a Hamburger Button when Screen becomes smaller -->
       <button 
       class = "navbar-toggler" 
@@ -43,7 +47,7 @@
         <ul class = "navbar-nav ms-auto mb-2 mb-lg-0">
 
           <li class = "nav-item">
-            <a class = "nav-link active" aria-current = "page" href = "#">Home</a> 
+            <a class = "nav-link active" aria-current = "page" href = "../index.html">Home</a> 
           </li>
 
           <li class = "nav-item">
@@ -51,11 +55,11 @@
           </li>
 
           <li class = "nav-item">
-            <a class = "nav-link" href = "#">Services</a>
+            <a class = "nav-link" href = "features/allServices.html">Services</a>
           </li>
 
           <li class = "nav-item">
-            <a class = "nav-link" href = "#">Contact</a>
+            <a class = "nav-link" href = "features/contact.html">Contact</a>
           </li>
 
           <li class = "nav-item">
