@@ -256,6 +256,13 @@ form > div > button { /* #contact > div.contactRows > div.rightContent > div > *
 }
 
 
+#aboutMain {
+  text-align: center;
+  margin: 0px 40px 0px 40px;
+
+}
+
+
 
 /* MIX photo section in ABOUT ME PAGE */
 
