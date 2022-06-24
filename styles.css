@@ -296,7 +296,16 @@ form > div > button { /* #contact > div.contactRows > div.rightContent > div > *
 }
 
 
+#getFreeQuote{
+  color: white;
+  background-color: #1e1e1e;
+}
 
+/*GLOBAL BUTTON STYLE used in HOME ABOUT SERVICES*/
+.btn-white{
+color:black;
+background-color: white;
+}
 
 /* specialFeatures KITCHEN page */
 #speacialFeaturesKitchen{
