@@ -26,7 +26,11 @@
   <!-- NOTE THERE is a MAINN CONTAINER here.. -->
   <nav class = "navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class = "container-fluid">
-      <a class = "navbar-brand" href = "#">Navbar</a>
+      <div style = "width:50%"><!-- GLOBAL TO APPLY TO ALL PAGES WITH LOGO --><!-- Technique to make sure tag <a> isnt clickable PAST LOGO image -->
+        <a class = "navbar-brand" href = "../index.html"> <!-- take out href to solve image taking up too much space? -->
+          <img src= "../../images/ManhattanCabinetsLogo.png" width="20%" alt="">
+        </a> 
+        </div>
       <!-- Makes a Hamburger Button when Screen becomes smaller -->
       <button 
       class = "navbar-toggler" 
@@ -43,11 +47,11 @@
         <ul class = "navbar-nav ms-auto mb-2 mb-lg-0">
 
           <li class = "nav-item">
-            <a class = "nav-link active" aria-current = "page" href = "#">Home</a> 
+            <a class = "nav-link active" aria-current = "page" href = "../../index.html">Home</a> 
           </li>
 
           <li class = "nav-item">
-            <a class = "nav-link" href = "#">About</a>
+            <a class = "nav-link" href = "../about.html">About</a>
           </li>
 
           <li class = "nav-item">
@@ -55,7 +59,7 @@
           </li>
 
           <li class = "nav-item">
-            <a class = "nav-link" href = "#">Contact</a>
+            <a class = "nav-link" href = "../features/contact.html">Contact</a>
           </li>
 
           <li class = "nav-item">
@@ -87,7 +91,7 @@
 
   <!-- 1st section INTORDUCING new page -->
   <section>
-    <h2>All Services</h2>
+    <h2>Our Services</h2>
   </section>
   
   <section> <!-- MIX OF KITCHEN PHOTOS -->
@@ -111,13 +115,9 @@
     
   </section>
 
-  <section id = "speacialFeaturesKitchen">
-    <h3>About Manhattan Cabinets</h3>
-    <p>we are super cool. cuper chill.  we can take your 
-      cabinet specifications and make you and amazing
-      product</p>
-
-      <button type = "button" class = "btn btn-outline-primary">See All Reviews</button>
+  <section id = "getFreeQuote">   <!-- GLOABLLY STYLED..... ALSO USE FOR SERVICES page -->
+    <h3>Let Us Help You Realize Your Vision<br> Tell Us About Your Project!</h3>
+      <button type = "button" class = "btn btn-outline-primary btn-white">Get Free Estimate</button><!-- btn-white is GLOBAL... used in HOME ABOUT and SERVICES-->
   </section>
 </body>
 </html>
