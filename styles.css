@@ -317,11 +317,27 @@ background-color: white;
 .fAndEMixTopRowAllServices{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 69px
 }
 .fAndEMixBottomRowAllServices{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 69px
 }
 
+.featurePicServices {
+  background-image: url(images/Interior.jpg);
+  background-size: cover;
+  /* height: 35em; */
+  height:17em;                    /* THIS sets HEIGHT for ALL CArds... FIND A WAY TO SET HEIGHT FOR ALL... NOT JUST AT ONE SPOT..*/
+  background-position: center;
+}
+
+.featuredColoredPicServices {
+  background-image: url(images/fAndEMix.jpg);
+  background-size: cover;
+  /* height: 35em; */
+  background-position: center;
+}
 
 
