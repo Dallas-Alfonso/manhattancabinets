@@ -24,11 +24,15 @@
 <body>
 
   
-  <section id = "mainContainerr">
+  <!-- <section id = "mainContainer"> -->
     <!-- NavBar --> 
-  <nav class = "navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <div class = "container-fluid">
-      <a class = "navbar-brand" href = "#">NAVBAR</a>
+    <nav class = "navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class = "container-fluid">
+        <div style = "width:50%"><!-- GLOBAL TO APPLY TO ALL PAGES WITH LOGO --><!-- Technique to make sure tag <a> isnt clickable PAST LOGO image -->
+        <a class = "navbar-brand" href = "../index.html"> <!-- take out href to solve image taking up too much space? -->
+          <img src= "images/ManhattanCabinetsLogo.png" width="20%" alt="">
+        </a> 
+        </div>
       <!-- Makes a Hamburger Button when Screen becomes smaller -->
       <button 
       class = "navbar-toggler" 
@@ -88,15 +92,25 @@
   </nav>
 
   <!-- 1st section w/ main  photo -->
-  <section class = "mainPhoto1" id = "title">
+  <section id = "aboutMain">
+  <section class = "mainPhoto1" id = "title"> 
 
     <!-- Think about implementing a MAIN CONTAINER to control width size of this section..
     This will be reoccuring in each section where we need to contorl width.
     This is better than implementing an overall/site-wide width control -->
   
+    
+    <!-- MAIN TEXT FONT and CIRCLE SECTION -->
+    <div><!-- Main Div for   MAIN TEXT FONT and CIRCLE SECTION  -->
+      <div class = "circleStyleForMainHeading"> <!-- CIRCLE!!!!  -->
+        <div class = "mainSummaryText">Premier Kitchen,<br> Bath And Cabinet <br> Remodelling</div> <!-- mainSummaryText has NO CSS yet -->
+      </div>
+      
+    </div>
+    <!-- MAIN TEXT FONT and CIRCLE SECTION -->
   
 
-  <div class = "mainSummaryText">Premier Kitchen, Bath, & Cabinet Remodelling</div>
+
   <button type = "button" class = "btn btn-outline-primary">Get a Free Estimate</button>
   <!-- NavBar -->
   </section>
@@ -309,6 +323,7 @@
 
   <!-- Contact Me -->
 
+<!-- </section> -->
 </section>
 </body>
 </html>

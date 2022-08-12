@@ -26,6 +26,24 @@
   background-size: cover;
 }
 
+
+.circleStyleForMainHeading{
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.mainSummaryText{
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: left;
+  font-size: 50px;
+}
+
 /* 1st section w/ main  photo */
 /* Section with second main photo */
 
